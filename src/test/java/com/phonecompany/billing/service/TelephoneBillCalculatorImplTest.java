@@ -93,7 +93,6 @@ class TelephoneBillCalculatorImplTest {
     BigDecimal result = calculator.calculate(input);
 
     assertEquals(BigDecimal.ZERO, result);
-    assertEquals(1,2);
   }
 
   @Test
